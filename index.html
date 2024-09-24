@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://api.fontshare.com/v2/css?f[]=paquito@500&display=swap" rel="stylesheet">
+    <title>Parallax</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav-container">
+            <nav>
+                <ul class="animate__animated animate__fadeInDown">
+                    <li><a href="#intro">INTRO</a></li>
+                    <li><a href="#content">CONTENT</a></li>
+                    <li><a href="#footer">FOOTER</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="parallax intro" id="intro">
+        <div class="intro-content">
+            <h1>Manchester City</h1>
+            <p>"City Till We Die"</p>
+            <a href="#content">Explore More</a>
+        </div>
+    </div>
+
+    <div class="parallax content" id="content">
+        <div class="content-container">
+            <div class="flex-container">
+                <div class="text-container">
+                    <img src="images/MC_LOGO.png" alt="Manchester City Logo"
+                        style="float: left; margin-right: 20px; width: 180px; height: auto;">
+                    <p>
+                        Manchester City adalah klub sepak bola yang didirikan pada tahun 1880 dengan nama St. Mark's
+                        (West Gorton) di Manchester, Inggris. Pada tahun 1894, klub berganti nama menjadi Manchester
+                        City Football Club.
+                        Selama sejarahnya, Manchester City mengalami pasang surut dan menghadapi berbagai tantangan.
+                        Pada tahun 1930-an, mereka mencapai masa kejayaan dengan memenangkan gelar Divisi Pertama
+                        (kini Liga Utama Inggris). Namun, setelah itu, klub ini mengalami penurunan hingga
+                        terdegradasi ke Divisi Tiga pada tahun 1998.
+                        Namun, sejak pengambilalihan klub oleh Sheikh Mansour bin Zayed Al Nahyan pada tahun 2008,
+                        Manchester City mengalami transformasi besar. Investasi finansial yang kuat memungkinkan
+                        klub ini merekrut pemain bintang dan membangun skuad yang kuat. Di bawah asuhan manajer Pep
+                        Guardiola, Manchester City mencapai kesuksesan besar.
+                        Dalam beberapa tahun terakhir, Manchester City telah meraih gelar-gelar domestik, termasuk
+                        gelar juara Liga Utama Inggris dan Liga Champions UEFA
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="button-container">
+            <button class="button" onclick="window.location.href='history.html'">History</button>
+            <button class="button" onclick="window.location.href='history.html'">Trophies</button>
+            <button class="button" onclick="window.location.href='history.html'">Legends</button>
+            <button class="button" onclick="window.location.href='history.html'">Players</button>
+        </div>
+    </div>
+
+    <div class="parallax footer" id="footer">FOOTER</div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
